@@ -82,65 +82,71 @@ Handle the cookie consent banner (Allow All / Required Only / Cookies Settings) 
 
 ![Cookie consent banner](screenshots/12-support-portal-cookies.jpg)
 
-## 13. Verify account access via My Downloads
+## 13. Find your dashboard via search
+
+The portal doesn't redirect you straight to your dashboard after login. Use the search icon in the top navigation, type **"dashboard"** and press Enter. This opens the AI-powered search results, and the left-hand menu (with **My Dashboard**, **My Entitlements**, **My Downloads**, etc.) becomes available.
+
+![Search results for "dashboard" showing the portal navigation menu](screenshots/13-search-dashboard.png)
+
+## 14. Verify account access via My Downloads
 
 From the left-hand menu, open **My Downloads** to confirm the account is active.
 
-![My Downloads page](screenshots/13-my-downloads-page.png)
+![My Downloads page](screenshots/14-my-downloads-page.png)
 
-## 14. Browse free downloads
+## 15. Browse free downloads
 
 Click the **Free Software Downloads** link to see products available without an entitlement, e.g. VMware Workstation Pro.
 
-![List of free VMware downloads](screenshots/14-free-downloads-list.png)
+![List of free VMware downloads](screenshots/15-free-downloads-list.png)
 
-## 15. Pick a product release
+## 16. Pick a product release
 
 Select a product (e.g. VMware Workstation Pro) and choose a release/version.
 
-![VMware Workstation Pro release list](screenshots/15-vmware-workstation-releases.png)
+![VMware Workstation Pro release list](screenshots/16-vmware-workstation-releases.png)
 
-## 16. Review the available files
+## 17. Review the available files
 
 The product's file list shows release date, checksums (SHA2/MD5), and build number.
 
-![Product files list with checksums](screenshots/16-product-files-list.png)
+![Product files list with checksums](screenshots/17-product-files-list.png)
 
-## 17. Review license terms (optional)
+## 18. Review license terms (optional)
 
 Terms and Conditions link opens Broadcom's Software Agreements and Resources page.
 
-![License and Service Terms page](screenshots/17-license-terms-tab.png)
+![License and Service Terms page](screenshots/18-license-terms-tab.png)
 
-## 18. Accept the Terms and Conditions
+## 19. Accept the Terms and Conditions
 
 Check **I agree to the Terms and Conditions** before downloading.
 
-![Accepting terms and conditions checkbox](screenshots/18-accept-terms-conditions.png)
+![Accepting terms and conditions checkbox](screenshots/19-accept-terms-conditions.png)
 
-## 19. Confirm the screening/verification prompt
+## 20. Confirm the screening/verification prompt
 
 Clicking download triggers an additional verification prompt. Click **Yes** to proceed.
 
-![Additional verification required prompt](screenshots/19-screening-verification-prompt.png)
+![Additional verification required prompt](screenshots/20-screening-verification-prompt.png)
 
-## 20. Fill in the Trade Compliance form
+## 21. Fill in the Trade Compliance form
 
 Broadcom requires export-compliance details (name, company, address, country) before releasing the download. Select **I Agree** and click **Submit**.
 
-![Trade Compliance and Download Conditions form](screenshots/20-trade-compliance-form.png)
+![Trade Compliance and Download Conditions form](screenshots/21-trade-compliance-form.png)
 
-## 21. Download the file
+## 22. Download the file
 
 Back on the product files page, the download icon becomes available.
 
-![Download ready on product files page](screenshots/21-download-ready.png)
+![Download ready on product files page](screenshots/22-download-ready.png)
 
-## 22. Confirm the file was downloaded
+## 23. Confirm the file was downloaded
 
 The downloaded installer appears in the local file system, confirming the account works end-to-end.
 
-![Downloaded installer in File Explorer](screenshots/22-downloaded-file-explorer.png)
+![Downloaded installer in File Explorer](screenshots/23-downloaded-file-explorer.png)
 
 ---
 
