@@ -148,6 +148,54 @@ The downloaded installer appears in the local file system, confirming the accoun
 
 ![Downloaded installer in File Explorer](screenshots/23-downloaded-file-explorer.png)
 
+## 24. Alternative Download Link and File Integrity Verification
+
+If the official download link is unavailable or the download fails, you can download the same file from the **SourceForge** mirror.
+
+> **Important:** After downloading the file, it is strongly recommended to verify its integrity before using it.
+
+For example, if you downloaded **VMware-Workstation-Full-26H1-25388281.exe**, verify that its **SHA-256** checksum matches the value published on the official **Broadcom** website:
+
+```text
+a0ef9087607d9cad20b08139e73e41242e044ad5bd8cee141d3bad314586737f
+```
+
+If both values match exactly, the file has been downloaded correctly and has not been altered.
+
+### On Linux
+
+Open a terminal and run the following command:
+
+```bash
+sha256sum VMware-Workstation-Full-26H1-25388281.exe
+```
+
+Expected output:
+
+```text
+a0ef9087607d9cad20b08139e73e41242e044ad5bd8cee141d3bad314586737f  VMware-Workstation-Full-26H1-25388281.exe
+```
+
+### On Windows (PowerShell)
+
+Open **PowerShell** and run the following command:
+
+```powershell
+Get-FileHash ".\VMware-Workstation-Full-26H1-25388281.exe" -Algorithm SHA256
+```
+
+Expected output:
+
+```text
+Algorithm : SHA256
+Hash      : A0EF9087607D9CAD20B08139E73E41242E044AD5BD8CEE141D3BAD314586737F
+Path      : C:\Path\To\VMware-Workstation-Full-26H1-25388281.exe
+```
+
+The value displayed in the **Hash** field must exactly match the SHA-256 checksum published on the official **Broadcom** website.
+
+> **Note:** If the checksums do not match, **do not run or install the file**. Delete it and download it again from a trusted source.
+
 ---
 
 ## Summary
